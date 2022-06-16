@@ -50,7 +50,7 @@ For example, oddValues([1,2,3]) returns [1,3].
 ------------------------------------------------------------------------------------------------ */
 
 const oddValues = (arr) => {
-  let newArr = arr.filter(n => !!(n & 1));
+  let newArr = arr.filter(n => n % 2);
  return newArr;
 };
 
