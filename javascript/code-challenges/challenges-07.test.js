@@ -25,7 +25,7 @@ let starWarsPeople = [
 ];
 
 const sortStarWarsCharacters = (starWarsArr) => {
-  startWars
+  
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -35,7 +35,7 @@ Write a function named removeThree that takes an index and an array. The functio
 ------------------------------------------------------------------------------------------------ */
 
 const removeThree = (idx, arr) => {
-  // Solution code here...
+  array.splice(idex, 1);
 };
 
 /* ------------------------------------------------------------------------------------------------
