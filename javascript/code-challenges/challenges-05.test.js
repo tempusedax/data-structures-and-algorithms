@@ -111,13 +111,13 @@ let starWarsData = [{
 }];
 
 const returnNames = (arr) => {
-  let name = []
-  arr.reduce(function (previousValue, currentValue) {
-    name.push(currentValue.name)
-    console.log(name)
-})
-return name;
-  
+  // let name = []
+  return arr.reduce((chars, char) => {
+    chars.push(
+      char.name
+    );
+    return chars;
+  }, []);
 };
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 6
