@@ -111,7 +111,7 @@ let starWarsData = [{
 }];
 
 const returnNames = (arr) => {
-  let name = []
+  let name = ['Luke Skywalker']
   arr.reduce(function (previousValue, currentValue) {
     name.push(currentValue.name)
     console.log(name)
